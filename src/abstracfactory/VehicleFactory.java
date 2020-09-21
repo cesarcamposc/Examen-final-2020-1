@@ -1,12 +1,5 @@
 package abstracfactory;
 
-/*import abstractfactory.Car;
-import abstractfactory.CarVehicleFactory;
-import abstractfactory.MotorcycleVehicleFactory;
-import abstractfactory.SUV;
-import abstractfactory.VehicleFactory;
-*/
-
 public abstract class VehicleFactory {
 	
 	public static final String CAR_VEHICLE = "Car";

@@ -1,6 +1,8 @@
 package Decorator;
 
-public abstract class SandwichDecorator implements Sandwich {
+
+public abstract class SandwichDecorator implements Sandwich{
+	
 	protected Sandwich decoratedsandwich;
 	
 	
@@ -11,7 +13,5 @@ public abstract class SandwichDecorator implements Sandwich {
 	@Override
 	public String make() {
         return decoratedsandwich.make();
-}
-	
-	
+	}
 }
