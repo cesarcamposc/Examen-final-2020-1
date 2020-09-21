@@ -1,15 +1,16 @@
 package abstracfactory;
 
-
-
 public class CarVehicleFactory extends VehicleFactory {
 
 	public Car getCar() {
-        return new SedanCar("Sedan Car");
-    }
+		// TODO Auto-generated method stub
+		return null;
+	}
 
+	
 	public Motorcycle getMotorcycle() {
-        return new Scooter("Scooter Motorcycle");
-    }
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 }
